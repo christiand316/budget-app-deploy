@@ -1,0 +1,14 @@
+.purchases-expense-card {
+    margin-bottom: 20px;
+}
+.expenses-chart {
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+.expenses-edit {
+    display: flex;
+    justify-content: right;
+    cursor: pointer;
+    margin-right: 25px;
+    
+}

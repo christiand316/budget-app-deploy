@@ -1,0 +1,35 @@
+.pie-chart {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+  }
+  .pie-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+    background-color: rebeccapurple;
+  }
+  .legend-debt {
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    color: white;
+    
+
+    font-size: 18px;
+
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  .legend-debt-item {
+    display: flex;
+    margin-bottom: 15px;
+  }
+  .legend-debt-icon {
+    margin-right: 25px;
+  }
+  .legend-debt-description {
+    width: 120px;
+  }

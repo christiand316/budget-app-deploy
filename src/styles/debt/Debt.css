@@ -1,0 +1,81 @@
+.quickinfo-debt-card {
+    height: 310px;
+    padding: 10px;
+}
+
+.debt-card {
+    font-family: 'Inter', sans-serif;
+    color: white;
+    background-color: rgba(255, 248, 199, 0.1);
+    border-radius: 20px;
+    
+
+
+    margin: 20px 20px 0px 20px;
+    padding-bottom: 10px;
+    overflow: hidden;
+}
+
+.quickinfo-debt {
+
+
+    align-items: center;
+    
+    display: flex;
+	justify-content: space-between;
+}
+
+
+
+.debt-chart {
+    margin-left: 15px;
+    height: 300px;
+    align-items: center;
+}
+
+.debt-helpers-container {
+    margin-left:auto;
+    
+    display: flex;
+	flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.legend-debt {
+    display: flex;
+    align-self: flex-start;
+
+    margin: 15px;
+}
+.add-debt {
+    padding-top: 7px;
+    scale: 150%;
+    cursor: pointer;
+    align-self: center;
+
+    display: flex;
+    margin-right: 25px;
+}
+
+
+
+
+
+.debt-form {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin: 20px 0px 5px 0px;
+}
+
+.home-form {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin-top: 50px;
+}

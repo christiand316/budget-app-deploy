@@ -1,0 +1,163 @@
+.home-card {
+    background-color: rgba(255, 248, 199, 0.1);
+    border-radius: 20px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    color: white;
+
+    margin: 20px 20px 0px 20px;
+    overflow: hidden;
+}
+
+.quickinfo-card {
+    height: 200px
+}
+.quickinfo-highlighted {
+    display: flex;
+    flex-direction: row;
+}
+
+.quickinfo-info-container {
+    margin: 20px;
+    
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+
+.primary-value {
+    font-size: 32px;
+}
+.primary-value-text{
+    font-size: 16px;
+}
+.secondary-value {
+    font-size: 16px;
+    margin: 5px;
+    color: rgba(120, 120, 120);
+    display: inline
+}
+
+.setting-cog {
+    scale: 200%;
+    cursor: pointer;
+}
+
+.bar {
+    background-color: rgba(240, 248, 255, 0.438);
+    height: 100px;
+    width: 100%;
+}
+
+.card-head {
+    height: 35px;
+    margin-bottom: 20px;
+
+}
+.card-head-expense {
+    height: 50px;
+    margin: 20px;
+}
+.purchases-expense-card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px;
+}
+.home-card-heading {
+    font-size: 32px;
+}
+.home-card-icon {
+    padding-top: 7px;
+    scale: 150%;
+    cursor: pointer;
+    align-self: center;
+}
+.expense-item {
+    margin-left: 30px;
+}
+.single-expense-item {
+    display: flex;
+    justify-content: space-between;
+    
+}
+.single-expense-container {
+    display: flex;
+}
+.single-expense-primary-value {
+    font-size: 24px;
+}
+.single-expense-secondary-value {
+    font-size: 16px;
+    margin-left: 10px;
+    margin: 8px;
+    color: rgba(120, 120, 120);
+    display: inline
+}
+
+
+.monthly-expense-item {
+    height: fit-content;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 24px;
+}
+
+.monthly-expense-item-overflow{
+    background-color: rgba(255, 248, 199, 0.1);
+
+}
+.monthly-expense-text {
+    margin: 20px;
+    width: 40%;
+}
+.monthly-expense-legend {
+    align-content: flex-start;
+    justify-content: flex-start;
+}
+.expense-item-delete {
+    margin-right: 20px;
+    cursor: pointer;
+}
+.icon-align-right{ 
+    margin-left: auto;
+}
+.icon-align-top {
+    margin-top: 20px;
+}
+.expense-add-icon-align {
+    margin-left: 20px;   
+}
+
+.quickinfo-bar-svg1 {
+    width: 100%;
+    scale: 90%;
+}
+/* 
+
+
+.quickinfo-info-container {
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+
+
+.quickinfo-container {
+    display: flex;
+    flex-direction: row;
+}
+.quickinfo.highlighted {
+    display: flex;
+    flex-direction: column;
+}
+
+*/

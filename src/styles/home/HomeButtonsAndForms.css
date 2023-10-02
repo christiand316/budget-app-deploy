@@ -1,0 +1,16 @@
+/* Form styling */
+.home-form {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.quickinfo-form-button {
+    margin-left: 10px;
+}
+.expense-form-icons {
+    transform: translateY(5px);
+}
